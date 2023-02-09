@@ -1,6 +1,6 @@
 # Afterburner (utility - accelerator)
 В проекте реализован функционал по оптимизации словарей регулярных выражений в программе МСМ (корпоративный проект компании).
-МСМ ищет материалы по заранее подготовленному перечню источников (статьи сайтов, посты в соц сетях) на предмет наличия в них заданных тем.
+МСМ ищет материалы по заранее подготовленному перечню источников (статьи сайтов, посты в соц сетях) на наличие в них заданных тем.
 
 <img src="images/main.jpg" width="600">
 
@@ -56,8 +56,8 @@
 ## Установка
 Быстрая установка:
 ```
-git clone https://github.com/ghiraphi/Afterburner_new.git
-cd Afterburner_new
+git clone https://github.com/ghiraphi/Afterburner.git
+cd Afterburner
 pip install pandas
 pip install psycopg2
 python main.py
